@@ -1,0 +1,7 @@
+div.containers {
+  display: flex;
+  flex-direction: column;
+}
+div.container {
+  margin: 2vw;
+}
