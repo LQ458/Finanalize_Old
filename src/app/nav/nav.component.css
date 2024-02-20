@@ -5,3 +5,7 @@ div.containers {
 div.container {
   margin: 2vw;
 }
+a.home {
+  position: relative;
+  right: 0.25vw;
+}
