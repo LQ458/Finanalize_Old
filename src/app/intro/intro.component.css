@@ -1,4 +1,4 @@
-:host{
+:host {
   --bg-color1: var(--green-dark);
   --bg-color2: var(--green);
   --bg-color3: var(--green-light);
@@ -16,7 +16,7 @@ h1.intro {
   color: var(--word-color1);
   text-align: center;
 }
-section.intros{
+section.intros {
   display: grid;
   position: relative;
   top: 70vh;
@@ -27,23 +27,23 @@ section.intros{
   grid-gap: 2vw;
   grid-template-rows: auto;
 }
-div.intro{
+div.intro {
   border-radius: 5px;
   height: 40vh;
 }
-div.quan{
+div.quan {
   background-color: var(--bg-color4);
   z-index: 1000;
 }
-div.qual{
+div.qual {
   background-color: var(--bg-color3);
   z-index: 1000;
 }
-div.property{
+div.property {
   background-color: var(--bg-color2);
   z-index: 1000;
 }
-div.introBg{
+div.introBg {
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
   top: 0;
@@ -53,7 +53,7 @@ div.introBg{
   height: 70vh;
   background-color: var(--bg-color1);
 }
-div.topBar{
+div.topBar {
   background-color: var(--bg-color1);
   position: absolute;
   top: 0;
@@ -61,18 +61,18 @@ div.topBar{
   left: 0;
   height: 7vh;
 }
-h1.tab{
+h1.tab {
   font-weight: 400;
   text-align: center;
   font-size: 1.8rem;
   color: var(--word-color2);
 }
-h1.tab1{
+h1.tab1 {
   color: var(--word-color2);
 }
-h1.tab2{
+h1.tab2 {
   color: var(--word-color3);
 }
-h1.tab3{
+h1.tab3 {
   color: var(--word-color4);
 }

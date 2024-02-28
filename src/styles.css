@@ -10,12 +10,12 @@
   --green-darkest: #053c30;
   /* Blue Palette */
   --blue-lightest: #b3e5fc;
---blue-lighter: #81d4fa;
---blue-light: #4fc3f7;
---blue: #48C6EF;
---blue-dark: #039be5;
---blue-darker: #0288d1;
---blue-darkest: #0277bd;
+  --blue-lighter: #81d4fa;
+  --blue-light: #4fc3f7;
+  --blue: #48c6ef;
+  --blue-dark: #039be5;
+  --blue-darker: #0288d1;
+  --blue-darkest: #0277bd;
 }
 * {
   font-family: "Poppins", sans-serif;
