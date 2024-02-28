@@ -1,5 +1,22 @@
-/* global style for the whole project (the angular project) */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+:root {
+  /* Green Palette */
+  --green-lightest: #ccf2e9;
+  --green-lighter: #99e5d3;
+  --green-light: #66d8bd;
+  --green: #11a674;
+  --green-dark: #0d7a53;
+  --green-darker: #095e42;
+  --green-darkest: #053c30;
+  /* Blue Palette */
+  --blue-lightest: #b3e5fc;
+--blue-lighter: #81d4fa;
+--blue-light: #4fc3f7;
+--blue: #48C6EF;
+--blue-dark: #039be5;
+--blue-darker: #0288d1;
+--blue-darkest: #0277bd;
+}
 * {
   font-family: "Poppins", sans-serif;
 }
